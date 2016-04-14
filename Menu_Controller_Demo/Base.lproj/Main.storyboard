@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,89 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京时间4月14日，湖人在主场101-96战胜爵士。这是科比的生涯告别之战，他在湖人打了20个赛季，创下了NBA纪录。而他在今天打出了属于自己的最后一战，出手50次，轰下60分，再次刷新多项纪录，耗尽了最后的力气，没有留下任何遗憾" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8c-A2-wdh" customClass="RFLabel">
+                                <rect key="frame" x="35" y="102" width="530" height="50.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.2588235438" green="0.2588235438" blue="0.2588235438" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ukq-ji-kAa" customClass="RFLabel">
+                                <rect key="frame" x="35" y="202.5" width="530" height="100.5"/>
+                                <string key="text">《疯狂动物城》由迪士尼影业出品的3D动画片，由里奇·摩尔、拜恩·霍华德及杰拉德·布什联合执导，金妮弗·古德温、杰森·贝特曼、夏奇拉、艾伦·图代克、伊德瑞斯·艾尔巴、J·K·西蒙斯等加盟配音[1]  。
+该片讲述了在一个所有动物和平共处的动物城市，兔子朱迪通过自己努力奋斗完成自己儿时的梦想，成为动物警察的故事。该片于2016年3月4日中国大陆同步北美上映[1]  。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.2588235438" green="0.2588235438" blue="0.2588235438" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pyv-3d-eHi">
+                                <rect key="frame" x="47" y="33" width="506" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kobe02" translatesAutoresizingMaskIntoConstraints="NO" id="YlI-x1-Kv5" customClass="RFImageView">
+                                <rect key="frame" x="305.5" y="399" width="109" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="MNb-sq-qlp"/>
+                                    <constraint firstAttribute="width" constant="109" id="SXP-0N-0cx"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kobe01" translatesAutoresizingMaskIntoConstraints="NO" id="ASr-uS-Jhh" customClass="RFImageView">
+                                <rect key="frame" x="185.5" y="399" width="109" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="109" id="ayg-9B-f1X"/>
+                                    <constraint firstAttribute="height" constant="130" id="jJM-mp-qN2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YlI-x1-Kv5" firstAttribute="leading" secondItem="ASr-uS-Jhh" secondAttribute="trailing" constant="70" id="0IF-pF-eHd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ASr-uS-Jhh" secondAttribute="bottom" constant="71" id="8Wa-hO-dp8"/>
+                            <constraint firstItem="YlI-x1-Kv5" firstAttribute="leading" secondItem="ukq-ji-kAa" secondAttribute="trailing" constant="-188" id="9M5-et-t0h"/>
+                            <constraint firstItem="ukq-ji-kAa" firstAttribute="top" secondItem="O8c-A2-wdh" secondAttribute="bottom" constant="50" id="9Mf-xj-drl"/>
+                            <constraint firstItem="Pyv-3d-eHi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BPv-Sc-kUE"/>
+                            <constraint firstItem="YlI-x1-Kv5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="60" id="Huh-B1-ZnN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ukq-ji-kAa" secondAttribute="trailing" constant="15" id="IaB-m8-hSy"/>
+                            <constraint firstItem="ukq-ji-kAa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K5N-ne-hMn"/>
+                            <constraint firstItem="O8c-A2-wdh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q5g-rM-mCC"/>
+                            <constraint firstItem="Pyv-3d-eHi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="27" id="VO7-Ap-lle"/>
+                            <constraint firstItem="Pyv-3d-eHi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="13" id="WNA-BD-JdD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YlI-x1-Kv5" secondAttribute="bottom" constant="71" id="Xbo-cz-hHz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ASr-uS-Jhh" secondAttribute="bottom" constant="71" id="aDv-vM-PVW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YlI-x1-Kv5" secondAttribute="bottom" constant="71" id="cfH-fi-ddu"/>
+                            <constraint firstItem="ukq-ji-kAa" firstAttribute="leading" secondItem="ASr-uS-Jhh" secondAttribute="trailing" constant="-217" id="ey8-u1-XRH"/>
+                            <constraint firstItem="O8c-A2-wdh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="82" id="jiF-oZ-AOg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O8c-A2-wdh" secondAttribute="trailing" constant="15" id="knS-8p-hkS"/>
+                            <constraint firstItem="ASr-uS-Jhh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-60" id="kxo-ah-kJl"/>
+                            <constraint firstItem="ukq-ji-kAa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="l2F-D8-eME"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pyv-3d-eHi" secondAttribute="trailing" constant="27" id="nPa-vn-Uf0"/>
+                            <constraint firstItem="O8c-A2-wdh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="qXN-up-rCp"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ey8-u1-XRH"/>
+                                <exclude reference="0IF-pF-eHd"/>
+                                <exclude reference="9M5-et-t0h"/>
+                                <exclude reference="8Wa-hO-dp8"/>
+                                <exclude reference="cfH-fi-ddu"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="bottomLabel" destination="ukq-ji-kAa" id="Y1q-Zn-Jv8"/>
+                        <outlet property="leftImageView" destination="ASr-uS-Jhh" id="Zyr-xr-Hoo"/>
+                        <outlet property="rightImageView" destination="YlI-x1-Kv5" id="jBe-3B-cIP"/>
+                        <outlet property="topLabel" destination="O8c-A2-wdh" id="VNA-Si-vWR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="260" y="429"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="kobe01" width="198" height="297"/>
+        <image name="kobe02" width="147" height="180"/>
+    </resources>
 </document>

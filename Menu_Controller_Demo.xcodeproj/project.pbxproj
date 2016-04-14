@@ -13,6 +13,8 @@
 		0E37440B1CBF7D1F0099D2DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3744091CBF7D1F0099D2DF /* Main.storyboard */; };
 		0E37440D1CBF7D1F0099D2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E37440C1CBF7D1F0099D2DF /* Assets.xcassets */; };
 		0E3744101CBF7D1F0099D2DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E37440E1CBF7D1F0099D2DF /* LaunchScreen.storyboard */; };
+		0E3744191CBF7D980099D2DF /* RFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3744181CBF7D980099D2DF /* RFLabel.m */; };
+		0E3744211CBFA5A40099D2DF /* RFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3744201CBFA5A40099D2DF /* RFImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		0E37440C1CBF7D1F0099D2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E37440F1CBF7D1F0099D2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E3744111CBF7D1F0099D2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E3744171CBF7D980099D2DF /* RFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFLabel.h; sourceTree = "<group>"; };
+		0E3744181CBF7D980099D2DF /* RFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFLabel.m; sourceTree = "<group>"; };
+		0E37441F1CBFA5A40099D2DF /* RFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFImageView.h; sourceTree = "<group>"; };
+		0E3744201CBFA5A40099D2DF /* RFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				0E3744041CBF7D1F0099D2DF /* AppDelegate.m */,
 				0E3744061CBF7D1F0099D2DF /* ViewController.h */,
 				0E3744071CBF7D1F0099D2DF /* ViewController.m */,
+				0E3744171CBF7D980099D2DF /* RFLabel.h */,
+				0E3744181CBF7D980099D2DF /* RFLabel.m */,
+				0E37441F1CBFA5A40099D2DF /* RFImageView.h */,
+				0E3744201CBFA5A40099D2DF /* RFImageView.m */,
 				0E3744091CBF7D1F0099D2DF /* Main.storyboard */,
 				0E37440C1CBF7D1F0099D2DF /* Assets.xcassets */,
 				0E37440E1CBF7D1F0099D2DF /* LaunchScreen.storyboard */,
@@ -149,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3744211CBFA5A40099D2DF /* RFImageView.m in Sources */,
+				0E3744191CBF7D980099D2DF /* RFLabel.m in Sources */,
 				0E3744081CBF7D1F0099D2DF /* ViewController.m in Sources */,
 				0E3744051CBF7D1F0099D2DF /* AppDelegate.m in Sources */,
 				0E3744021CBF7D1F0099D2DF /* main.m in Sources */,
